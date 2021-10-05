@@ -10,6 +10,7 @@
 # november 2011, aanpassing syntax voor Python3 compatibility door Stephan Heijl
 # november 2011, leesbaarheid functie aangepast (MvdB) 
 # november 2014, aanpassing aan nieuw boek (EK) en extra commentaar
+# oktober 2021, aanpassing met extra commentaar (TP)
 #################################################################################
 
 # Enzymen met knipprofiel
@@ -58,13 +59,15 @@ def getSequentie (bestandsnaam):
 # >>> EcoRII knipt niet
 
 def main():
+    # De sequentie wordt opgehaald
     sequentie = getSequentie("startOpgave3.txt")
 
     print ("De sequentie waar de enzymen in kunnen knippen")
     print ("-"*80)
     print (sequentie)
     print ("-"*80)
-
+    
+    # Schrijf hier de code om te checken of deze enzymen knippen in de sequentie
     print ("Enzymen die onderzocht worden:")
     print ("DdeI ", DdeI)
     print ("BspMII ", BspMII)
